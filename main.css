@@ -1,0 +1,140 @@
+/*CSS*/
+
+/* body */
+body {
+  color: #212529;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* footer指定 */
+footer{
+  /* display: inline-block; */
+  height: 8rem;
+  line-height: 8rem;
+  /* width: 100%; */
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  background-color: #f8f9fa;
+  color: #63707c;
+}
+footer a{
+  color: #63707c;
+}
+
+/*tab指定*/
+.tab {
+  padding: 1.5rem;
+}
+
+a {
+  color:  #6f42c1;
+}
+a:hover {
+  color: #6610f2;
+}
+
+/*flex指定*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item.unit, .item.calc, .item.cue{
+    padding: 24px 10px;
+}
+.item.unitPadding {
+  width: 170px;
+}
+
+/*unit周りの幅指定*/
+.face-u, .face-d, .cube-c {
+  width: 100px !important;
+  height: 42px;
+}
+.face-l, .face-r, .cube-c {
+  height: 100px !important;
+  width: 42px;
+}
+.cube-i {
+  text-align: center;
+  font-size: 3rem;
+  color: #6c757d;
+}
+
+/* 回答 */
+.item.cue {
+  font-size: 3rem;
+  color: #6f42c1;
+}
+
+/* ボタンの色 */
+.btn.btn-primary {
+  background-color: #fff;
+  border-color: #6c757d;
+  color: #6c757d;
+}
+.btn.btn-primary.active {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+  font-size: 0rem;
+}
+.btn.btn-primary.active::before {
+  font-size: 1.2rem;
+  content: '✾';
+  color: #fff;
+}
+
+.btn.btn-secondary {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+  color: #fff;
+}
+.btn.btn-secondary:hover {
+  background-color: #6610f2;
+  border-color: #6610f2;
+  color: #fff;
+}
+
+/* 表示周り */
+#cursor {
+  animation: flash 2.4s linear infinite;
+}
+@keyframes flash {
+  0%,100% {
+    opacity: 1;
+  }
+  /* 15%,85% {
+    opacity: 0.94
+  } */
+  25%,75% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
