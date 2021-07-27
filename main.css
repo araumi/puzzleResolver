@@ -76,7 +76,7 @@ a:hover {
 .btn.btn-primary.active {
   background-color: #6f42c1;
   border-color: #6f42c1;
-  font-size: 0rem;
+  font-size: 0px;
 }
 .btn.btn-primary.active::before {
   font-size: 1.2rem;
